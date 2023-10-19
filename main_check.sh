@@ -3978,12 +3978,12 @@ function ScriptTitle() {
         echo -e " [Stream Platform & Game Region Restriction Test]"
         echo -e "${Font_Purple}Supporting OS: CentOS 6+, Ubuntu 14.04+, Debian 8+, MacOS, Android (Termux), iOS (iSH)${Font_Suffix}"
         echo ""
-        echo -e " ** Test Starts At: $(date)"
+        echo -e " Test Starts At: $(date)"
         echo ""
     else
-        echo -e " [流媒体平台及游戏区域限制测试]"
+        echo -e " [流媒体平台及游戏区域解锁测试]"
         # echo -e "${Font_Purple}脚本适配OS: IDK${Font_Suffix}"
-        echo -e " ** 测试时间: $(date '+%Y-%m-%d %H:%M:%S %Z')"
+        echo -e " 测试时间: $(date '+%Y-%m-%d %H:%M:%S %Z')"
         echo ""
     fi
 }
