@@ -3966,12 +3966,8 @@ function CheckV6() {
 function Goodbye() {
     if [[ "$language" == "e" ]]; then
         echo -e "${Font_Green}Testing Done! Thanks for Using This Script! ${Font_Suffix}"
-        echo -e ""
-        echo -e "${Font_Yellow}Number of Script Runs for Today: ${TodayRunTimes}; Total Number of Script Runs: ${TotalRunTimes} ${Font_Suffix}"
     else
         echo -e "${Font_Green}本次测试已结束，感谢使用此脚本 ${Font_Suffix}"
-        echo -e ""
-        echo -e "${Font_Yellow}检测脚本当天运行次数: ${TodayRunTimes}; 共计运行次数: ${TotalRunTimes} ${Font_Suffix}"
     fi
 }
 
@@ -3980,16 +3976,13 @@ clear
 function ScriptTitle() {
     if [[ "$language" == "e" ]]; then
         echo -e " [Stream Platform & Game Region Restriction Test]"
-        echo ""
         echo -e "${Font_Purple}Supporting OS: CentOS 6+, Ubuntu 14.04+, Debian 8+, MacOS, Android (Termux), iOS (iSH)${Font_Suffix}"
         echo ""
         echo -e " ** Test Starts At: $(date)"
         echo ""
     else
         echo -e " [流媒体平台及游戏区域限制测试]"
-        echo ""
         # echo -e "${Font_Purple}脚本适配OS: IDK${Font_Suffix}"
-        echo ""
         echo -e " ** 测试时间: $(date '+%Y-%m-%d %H:%M:%S %Z')"
         echo ""
     fi
