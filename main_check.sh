@@ -3931,7 +3931,6 @@ function CheckV6() {
                 echo -e "${Font_SkyBlue}No IPv6 Connectivity Found, Abort IPv6 Testing...${Font_Suffix}"
                 isv6=0
             fi
-            echo -e ""
         fi
 
     else
@@ -3953,7 +3952,6 @@ function CheckV6() {
                 echo -e "${Font_SkyBlue}当前主机不支持IPv6,跳过...${Font_Suffix}"
                 isv6=0
             fi
-            echo -e ""
         fi
     fi
 }
@@ -3961,9 +3959,9 @@ function CheckV6() {
 
 function Goodbye() {
     if [[ "$language" == "e" ]]; then
-        echo -e "${Font_Green}Testing Done! Thanks for Using This Script! ${Font_Suffix}"
+        echo -e "${Font_Green}Testing Done!${Font_Suffix}"
     else
-        echo -e "${Font_Green}本次测试已结束，感谢使用此脚本 ${Font_Suffix}"
+        echo -e "${Font_Green}本次测试已结束！${Font_Suffix}"
     fi
 }
 
